@@ -8,9 +8,14 @@ Nous aborderons ce sujet en suivant une méthode systématique :
  - Réglage des paramètres des modèles et la modélisation: Pour optimiser leurs performances.
  - Comparaison de différents modèles(LightGBM et XGBoost): Utilisation de métriques telles que le RMSE pour évaluer et comparer les performances de différents modèles.
 
-**tmdb-prediction.ipynb** : Input, dans lequel il y a tous mes codes/n
-**TMDB_Prediction.pdf** : Le rapport qui aide à mieux comprendre le code/n
-**train_new.csv, test_new.csv** : Output, les nouvelles caractéristiques générées sont ajoutées au DataFrame originaux, et sont retournées sous la forme de train_new et test_new, ils sont puis sauvegardés sous format .csv/n
-**predicted_revenue.csv** : Output, prédiction sortie par le modèle LightGBM/n
-**predicted_revenue_xgb.csv** : Output, prédiction sortie par le modèle XGBoost/n
-**combined_predictions_and_real.csv** : Output, prédictions sorties par les deux modèles respectivement, puis comparer avec les vraies valeurs/n
+**tmdb-prediction.ipynb** : Input, dans lequel il y a tous mes codes
+
+**TMDB_Prediction.pdf** : Le rapport qui aide à mieux comprendre le code
+
+**train_new.csv, test_new.csv** : Output, les nouvelles caractéristiques générées sont ajoutées au DataFrame originaux, et sont retournées sous la forme de train_new et test_new, ils sont puis sauvegardés sous format .csv
+
+**predicted_revenue.csv** : Output, prédiction sortie par le modèle LightGBM
+
+**predicted_revenue_xgb.csv** : Output, prédiction sortie par le modèle XGBoost
+
+**combined_predictions_and_real.csv** : Output, prédictions sorties par les deux modèles respectivement, puis comparer avec les vraies valeurs
